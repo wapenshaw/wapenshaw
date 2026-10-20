@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Siddharth Abbineni: the same snippet in Rust, Go, Python, C# and TypeScript">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+    .fade { animation: fade 0.7s ease-out both; }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    .slide { opacity: 0; animation: show 13s infinite; }
+    .s0 { opacity: 1; }
+    @keyframes show { 0% { opacity: 0; } 2% { opacity: 1; } 18.0% { opacity: 1; } 20.0% { opacity: 0; } 100% { opacity: 0; } }
+  </style>
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#21262d"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6edf3"/>
+      <stop offset="0.5" stop-color="#e6edf3"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="998.5" height="338.5" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="998" height="338" rx="14" fill="url(#dots)"/>
+  <ellipse cx="730" cy="170" rx="260" ry="170" fill="url(#glow)"/>
+  <text x="56" y="84" class="mono fade" font-size="16"><tspan fill="#3fb950">➜</tspan> <tspan fill="#58a6ff">~/wapenshaw</tspan> <tspan fill="#7d8590">ls ./languages</tspan></text>
+  <text x="53" y="148" class="sans fade" font-size="56" font-weight="700" letter-spacing="-1.4" fill="#e6edf3">Siddharth</text>
+  <text x="53" y="206" class="sans fade" font-size="56" font-weight="700" letter-spacing="-1.4" fill="url(#name)" style="animation-delay:0.15s">Abbineni</text>
+  <text x="56" y="248" class="mono fade" font-size="15" fill="#d2a8ff" style="animation-delay:0.3s">sr technology automation engineer</text>
+  <text x="56" y="274" class="mono fade" font-size="15" fill="#7d8590" style="animation-delay:0.4s">+ ai automation · 13+ yrs in prod</text>
+
+  <rect x="498" y="40" width="458" height="262" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <line x1="498" y1="82" x2="956" y2="82" stroke="#30363d"/>
+    <text x="523" y="65" class="mono" font-size="12" fill="#7d8590">main.rs</text>
+    <g class="slide s0" style="animation-delay:-0.0s"><rect x="512" y="46" width="72.4" height="30" rx="6" fill="#0d1117"/><text x="523" y="65" class="mono" font-size="12" fill="#e6edf3">main.rs</text><rect x="518" y="74" width="60.400000000000006" height="2" rx="1" fill="#58a6ff"/></g>
+    <text x="599.4" y="65" class="mono" font-size="12" fill="#7d8590">main.go</text>
+    <g class="slide s1" style="animation-delay:-10.4s"><rect x="588.4" y="46" width="72.4" height="30" rx="6" fill="#0d1117"/><text x="599.4" y="65" class="mono" font-size="12" fill="#e6edf3">main.go</text><rect x="594.4" y="74" width="60.400000000000006" height="2" rx="1" fill="#58a6ff"/></g>
+    <text x="675.8" y="65" class="mono" font-size="12" fill="#7d8590">agent.py</text>
+    <g class="slide s2" style="animation-delay:-7.8s"><rect x="664.8" y="46" width="79.6" height="30" rx="6" fill="#0d1117"/><text x="675.8" y="65" class="mono" font-size="12" fill="#e6edf3">agent.py</text><rect x="670.8" y="74" width="67.6" height="2" rx="1" fill="#58a6ff"/></g>
+    <text x="759.4" y="65" class="mono" font-size="12" fill="#7d8590">Program.cs</text>
+    <g class="slide s3" style="animation-delay:-5.2s"><rect x="748.4" y="46" width="94" height="30" rx="6" fill="#0d1117"/><text x="759.4" y="65" class="mono" font-size="12" fill="#e6edf3">Program.cs</text><rect x="754.4" y="74" width="82" height="2" rx="1" fill="#58a6ff"/></g>
+    <text x="857.4" y="65" class="mono" font-size="12" fill="#7d8590">index.ts</text>
+    <g class="slide s4" style="animation-delay:-2.6s"><rect x="846.4" y="46" width="79.6" height="30" rx="6" fill="#0d1117"/><text x="857.4" y="65" class="mono" font-size="12" fill="#e6edf3">index.ts</text><rect x="852.4" y="74" width="67.6" height="2" rx="1" fill="#58a6ff"/></g>
+    <g class="slide s0" style="animation-delay:-0.0s">
+      <text x="516" y="120" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">1</text>
+      <text x="544" y="120" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">use</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">wapenshaw</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#ffa657">Engineer</tspan><tspan fill="#e6edf3">;</tspan></text>
+      <text x="516" y="146" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">2</text>
+      <text x="516" y="172" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">3</text>
+      <text x="544" y="172" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">fn</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#d2a8ff">main</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#e6edf3">)</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">{</tspan></text>
+      <text x="516" y="198" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">4</text>
+      <text x="544" y="198" class="mono" font-size="14" xml:space="preserve"><tspan fill="#e6edf3">    </tspan><tspan fill="#ff7b72">let</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">sid</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">=</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#ffa657">Engineer</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#d2a8ff">new</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#a5d6ff">"siddharth"</tspan><tspan fill="#e6edf3">)</tspan><tspan fill="#e6edf3">;</tspan></text>
+      <text x="516" y="224" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">5</text>
+      <text x="544" y="224" class="mono" font-size="14" xml:space="preserve"><tspan fill="#e6edf3">    </tspan><tspan fill="#e6edf3">sid</tspan><tspan fill="#e6edf3">.</tspan><tspan fill="#d2a8ff">automate</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#ffa657">Scope</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#ffa657">Everything</tspan><tspan fill="#e6edf3">)</tspan><tspan fill="#e6edf3">;</tspan></text>
+      <text x="516" y="250" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">6</text>
+      <text x="544" y="250" class="mono" font-size="14" xml:space="preserve"><tspan fill="#e6edf3">}</tspan></text>
+    </g>
+    <g class="slide s1" style="animation-delay:-10.4s">
+      <text x="516" y="120" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">1</text>
+      <text x="544" y="120" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">package</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">main</tspan></text>
+      <text x="516" y="146" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">2</text>
+      <text x="516" y="172" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">3</text>
+      <text x="544" y="172" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">func</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#d2a8ff">main</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#e6edf3">)</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">{</tspan></text>
+      <text x="516" y="198" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">4</text>
+      <text x="544" y="198" class="mono" font-size="14" xml:space="preserve"><tspan fill="#e6edf3">    </tspan><tspan fill="#e6edf3">sid</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#e6edf3">=</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">engineer</tspan><tspan fill="#e6edf3">.</tspan><tspan fill="#d2a8ff">New</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#a5d6ff">"siddharth"</tspan><tspan fill="#e6edf3">)</tspan></text>
+      <text x="516" y="224" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">5</text>
+      <text x="544" y="224" class="mono" font-size="14" xml:space="preserve"><tspan fill="#e6edf3">    </tspan><tspan fill="#e6edf3">sid</tspan><tspan fill="#e6edf3">.</tspan><tspan fill="#d2a8ff">Automate</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#e6edf3">ctx</tspan><tspan fill="#e6edf3">,</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">engineer</tspan><tspan fill="#e6edf3">.</tspan><tspan fill="#ffa657">Everything</tspan><tspan fill="#e6edf3">)</tspan></text>
+      <text x="516" y="250" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">6</text>
+      <text x="544" y="250" class="mono" font-size="14" xml:space="preserve"><tspan fill="#e6edf3">}</tspan></text>
+    </g>
+    <g class="slide s2" style="animation-delay:-7.8s">
+      <text x="516" y="120" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">1</text>
+      <text x="544" y="120" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">from</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">wapenshaw</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#ff7b72">import</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#ffa657">Engineer</tspan></text>
+      <text x="516" y="146" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">2</text>
+      <text x="516" y="172" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">3</text>
+      <text x="544" y="172" class="mono" font-size="14" xml:space="preserve"><tspan fill="#e6edf3">sid</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">=</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#d2a8ff">Engineer</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#a5d6ff">"siddharth"</tspan><tspan fill="#e6edf3">)</tspan></text>
+      <text x="516" y="198" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">4</text>
+      <text x="544" y="198" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">await</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">sid</tspan><tspan fill="#e6edf3">.</tspan><tspan fill="#d2a8ff">automate</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#e6edf3">scope</tspan><tspan fill="#e6edf3">=</tspan><tspan fill="#a5d6ff">"everything"</tspan><tspan fill="#e6edf3">)</tspan></text>
+    </g>
+    <g class="slide s3" style="animation-delay:-5.2s">
+      <text x="516" y="120" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">1</text>
+      <text x="544" y="120" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">using</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#ffa657">Wapenshaw</tspan><tspan fill="#e6edf3">;</tspan></text>
+      <text x="516" y="146" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">2</text>
+      <text x="516" y="172" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">3</text>
+      <text x="544" y="172" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">var</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">sid</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">=</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#ff7b72">new</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#d2a8ff">Engineer</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#a5d6ff">"siddharth"</tspan><tspan fill="#e6edf3">)</tspan><tspan fill="#e6edf3">;</tspan></text>
+      <text x="516" y="198" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">4</text>
+      <text x="544" y="198" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">await</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">sid</tspan><tspan fill="#e6edf3">.</tspan><tspan fill="#d2a8ff">AutomateAsync</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#ffa657">Scope</tspan><tspan fill="#e6edf3">.</tspan><tspan fill="#ffa657">Everything</tspan><tspan fill="#e6edf3">)</tspan><tspan fill="#e6edf3">;</tspan></text>
+    </g>
+    <g class="slide s4" style="animation-delay:-2.6s">
+      <text x="516" y="120" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">1</text>
+      <text x="544" y="120" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">import</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">{</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#ffa657">Engineer</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">}</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#ff7b72">from</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#a5d6ff">"wapenshaw"</tspan><tspan fill="#e6edf3">;</tspan></text>
+      <text x="516" y="146" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">2</text>
+      <text x="516" y="172" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">3</text>
+      <text x="544" y="172" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">const</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">sid</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">=</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#ff7b72">new</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#d2a8ff">Engineer</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#a5d6ff">"siddharth"</tspan><tspan fill="#e6edf3">)</tspan><tspan fill="#e6edf3">;</tspan></text>
+      <text x="516" y="198" class="mono" font-size="13" fill="#7d8590" opacity="0.6" text-anchor="start">4</text>
+      <text x="544" y="198" class="mono" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">await</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">sid</tspan><tspan fill="#e6edf3">.</tspan><tspan fill="#d2a8ff">automate</tspan><tspan fill="#e6edf3">(</tspan><tspan fill="#e6edf3">{</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">scope</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#a5d6ff">"everything"</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3">}</tspan><tspan fill="#e6edf3">)</tspan><tspan fill="#e6edf3">;</tspan></text>
+    </g>
+  <line x1="498" y1="268" x2="956" y2="268" stroke="#30363d"/>
+  <text x="516" y="290" class="mono" font-size="12" fill="#7d8590"><tspan fill="#3fb950">✓</tspan> builds  <tspan fill="#3fb950">✓</tspan> tests pass  <tspan fill="#d2a8ff">◆</tspan> same engineer, five runtimes</text>
+</svg>

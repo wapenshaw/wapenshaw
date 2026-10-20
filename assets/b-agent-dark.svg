@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-label="Siddharth Abbineni: an agent run that provisions, configures, deploys and verifies">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+    .fade { animation: fade 0.7s ease-out both; }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#21262d"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6edf3"/>
+      <stop offset="0.5" stop-color="#e6edf3"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="998.5" height="378.5" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="998" height="378" rx="14" fill="url(#dots)"/>
+  <path d="M1,44 V15 A14,14 0 0 1 15,1 H985 A14,14 0 0 1 999,15 V44 Z" fill="#161b22"/>
+  <line x1="1" y1="44" x2="999" y2="44" stroke="#30363d" stroke-width="1.5"/>
+  <circle cx="28" cy="22" r="6.5" fill="#ff5f57"/>
+  <circle cx="50" cy="22" r="6.5" fill="#febc2e"/>
+  <circle cx="72" cy="22" r="6.5" fill="#28c840"/>
+  <text x="500" y="27" text-anchor="middle" class="mono" font-size="13" fill="#7d8590">siddharth@wapenshaw: ~/agents</text>
+  <ellipse cx="230" cy="210" rx="240" ry="150" fill="url(#glow)"/>
+
+  <text x="46" y="138" class="sans fade" font-size="60" font-weight="700" letter-spacing="-1.5" fill="#e6edf3">Siddharth</text>
+  <text x="46" y="202" class="sans fade" font-size="60" font-weight="700" letter-spacing="-1.5" fill="url(#name)" style="animation-delay:0.15s">Abbineni</text>
+  <text x="50" y="246" class="mono fade" font-size="15" fill="#d2a8ff" style="animation-delay:0.3s">sr technology automation engineer</text>
+  <text x="50" y="272" class="mono fade" font-size="15" fill="#7d8590" style="animation-delay:0.4s">+ ai automation · 13+ yrs in prod</text>
+  <g class="fade" style="animation-delay:0.5s">
+    <rect x="50" y="300" width="178" height="34" rx="17" fill="#12261e" stroke="#3fb950" stroke-opacity="0.45"/>
+    <circle cx="70" cy="317" r="9" fill="#3fb950" opacity="0.3">
+      <animate attributeName="r" values="4;10;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="70" cy="317" r="4.5" fill="#3fb950"/>
+    <text x="86" y="322" class="mono" font-size="14" fill="#3fb950">agents: online</text>
+  </g>
+
+  <line x1="502" y1="70" x2="502" y2="352" stroke="#30363d" stroke-width="1.5" stroke-dasharray="2 5"/>
+  <text x="532" y="88" class="mono fade" font-size="14" xml:space="preserve" style="animation-delay:0.40s"><tspan fill="#7d8590">$ </tspan><tspan fill="#e6edf3">agent run --goal "patch aks node images"</tspan></text>
+  <text x="532" y="117" class="mono fade" font-size="14" xml:space="preserve" style="animation-delay:1.00s"><tspan fill="#d2a8ff">◆ planning</tspan><tspan fill="#7d8590"> · runbook + cluster state</tspan></text>
+  <text x="532" y="146" class="mono fade" font-size="14" xml:space="preserve" style="animation-delay:1.60s"><tspan fill="#3fb950">✓ </tspan><tspan fill="#e6edf3">draft      </tspan><tspan fill="#7d8590">PR #2148 · bump node image</tspan></text>
+  <text x="532" y="175" class="mono fade" font-size="14" xml:space="preserve" style="animation-delay:2.20s"><tspan fill="#3fb950">✓ </tspan><tspan fill="#e6edf3">ci         </tspan><tspan fill="#7d8590">lint · test · plan ~1</tspan></text>
+  <text x="532" y="204" class="mono fade" font-size="14" xml:space="preserve" style="animation-delay:2.80s"><tspan fill="#3fb950">✓ </tspan><tspan fill="#e6edf3">policy     </tspan><tspan fill="#7d8590">opa + vuln scan passed</tspan></text>
+  <text x="532" y="233" class="mono fade" font-size="14" xml:space="preserve" style="animation-delay:3.40s"><tspan fill="#ffa657">◇ </tspan><tspan fill="#e6edf3">waiting    </tspan><tspan fill="#ffa657">human approval required</tspan></text>
+  <text x="532" y="262" class="mono fade" font-size="14" xml:space="preserve" style="animation-delay:5.60s"><tspan fill="#3fb950">✓ </tspan><tspan fill="#e6edf3">approved   </tspan><tspan fill="#7d8590">by on-call · merged</tspan></text>
+  <text x="532" y="291" class="mono fade" font-size="14" xml:space="preserve" style="animation-delay:6.20s"><tspan fill="#3fb950">✓ </tspan><tspan fill="#e6edf3">rollout    </tspan><tspan fill="#7d8590">1 node at a time · pdbs held</tspan></text>
+  <text x="532" y="320" class="mono fade" font-size="14" xml:space="preserve" style="animation-delay:6.80s"><tspan fill="#d2a8ff">◆ done</tspan><tspan fill="#7d8590"> · slos green · summary posted</tspan></text>
+  <g class="fade" style="animation-delay:7.40s"><text x="532" y="349" class="mono" font-size="14" fill="#7d8590">$</text><rect x="548" y="337" width="8" height="16" fill="#d2a8ff" class="blink"/></g>
+</svg>

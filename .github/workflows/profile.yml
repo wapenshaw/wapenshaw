@@ -1,0 +1,43 @@
+name: profile
+
+on:
+  # Run it by hand from the Actions tab (or `gh workflow run profile.yml`) after new contributions.
+  workflow_dispatch:
+  # Safety net in case nobody does: 03:17 UTC on the 1st of Jan, Apr, Jul and Oct.
+  schedule:
+    - cron: "17 3 1 */3 *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Vet
+        run: go vet ./...
+
+      - name: Refresh telemetry and upstream PR cards
+        run: go run ./cmd/profile refresh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh profile telemetry"
+          git push
