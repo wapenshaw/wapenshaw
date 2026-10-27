@@ -18,10 +18,10 @@
 
 <!-- upstream:start -->
 <p>
+  <a href="https://github.com/hhdebb/herdr-radar/pull/70"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/pr-herdr-radar-70-dark.svg"><img alt="hhdebb/herdr-radar #70: feat(groups): name the machine on each workspace header" src="../assets/pr-herdr-radar-70-light.svg" width="49%"></picture></a>
   <a href="https://github.com/webosbrew/youtube-webos/pull/487"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/pr-youtube-webos-487-dark.svg"><img alt="webosbrew/youtube-webos #487: fix: wait for network before loading YouTube" src="../assets/pr-youtube-webos-487-light.svg" width="49%"></picture></a>
   <a href="https://github.com/qintmb/herdr-theme-picker/pull/8"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/pr-herdr-theme-picker-8-dark.svg"><img alt="qintmb/herdr-theme-picker #8: feat: Windows support via a Go port alongside Bash" src="../assets/pr-herdr-theme-picker-8-light.svg" width="49%"></picture></a>
   <a href="https://github.com/kryptamine/herdr-auto-title/pull/120"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/pr-herdr-auto-title-120-dark.svg"><img alt="kryptamine/herdr-auto-title #120: fix(resolver): read a windows path with spaces as one location" src="../assets/pr-herdr-auto-title-120-light.svg" width="49%"></picture></a>
-  <a href="https://github.com/TheRealDevKat/farm-check/pull/9"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/pr-farm-check-9-dark.svg"><img alt="TheRealDevKat/farm-check #9: Add Windows implementation SMART/FARM verification" src="../assets/pr-farm-check-9-light.svg" width="49%"></picture></a>
 </p>
 <!-- upstream:end -->
 
